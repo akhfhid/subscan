@@ -23,8 +23,8 @@ Lightweight reconnaissance & vulnerability scanner for bug-bounty hunters.
 
 ## 🚀 One-liner install & run
 ```bash
-git clone https://github.com/akhfhid/webscan.git
-cd BBR
+git clone https://github.com/akhfhid/subscan.git
+cd subscan
 pip install -r requirements.txt
 python bbr.py -t example.com
 ```
@@ -88,5 +88,6 @@ MIT – feel free to use, modify, and share.
 ---
 
 ##  Author
+```
 [Affan Khulafa Hidayah](https://github.com/akhfhid) 
 ```
