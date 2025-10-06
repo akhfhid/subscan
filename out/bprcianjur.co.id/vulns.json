@@ -1,0 +1,53 @@
+{
+  "subdomains": [
+    "www.bprcianjur.co.id",
+    "admin.bprcianjur.co.id",
+    "api.bprcianjur.co.id"
+  ],
+  "vulns": [
+    {
+      "type": "Missing CSP",
+      "url": "https://api.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing HSTS",
+      "url": "https://api.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing X-Content-Type-Options",
+      "url": "https://api.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing Clickjacking Protection",
+      "url": "https://api.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing CSP",
+      "url": "https://www.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing HSTS",
+      "url": "https://www.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing X-Content-Type-Options",
+      "url": "https://www.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing CSP",
+      "url": "https://admin.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing HSTS",
+      "url": "https://admin.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing X-Content-Type-Options",
+      "url": "https://admin.bprcianjur.co.id"
+    },
+    {
+      "type": "Missing Clickjacking Protection",
+      "url": "https://admin.bprcianjur.co.id"
+    }
+  ]
+}
