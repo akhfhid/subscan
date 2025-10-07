@@ -410,9 +410,9 @@ def generate_html(data: Dict, path: Path):
     Path(path).write_text(html)
 
 if __name__ == "__main__":
-    import sys, asyncio
-    if __name__ == "__main__":
-        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    # import sys, asyncio
+    # if __name__ == "__main__":
+        # asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     parser = argparse.ArgumentParser(description="Bug-Bounty Recon + Light Scanner")
     parser.add_argument("-t", "--target", help="single target domain")
     parser.add_argument("-f", "--file", help="file berisi daftar domain (scope)")
