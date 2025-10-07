@@ -21,7 +21,7 @@ Lightweight reconnaissance & vulnerability scanner for bug-bounty hunters.
 
 ---
 
-## 🚀 One-liner install & run
+##  One-liner install & run
 ```bash
 git clone https://github.com/akhfhid/subscan.git
 cd subscan
@@ -51,7 +51,7 @@ out/example.com/
 
 ---
 
-## 🔍 Sample finding
+##  Sample finding
 ```json
 {
   "type": "CORS",
@@ -62,27 +62,27 @@ out/example.com/
 
 ---
 
-## ⚠️ Ethics & rules
+##  Ethics & rules
 1. Only scan domains you own or have explicit permission to test.  
 2. Respect program scope & rate-limits – use `--fast` / lower `--threads` if needed.  
 3. Always validate manually before submitting bugs.
 
 ---
 
-## 🛠️ Extending
+##  Extending
 - Drop your own wordlist in `check_open_redirect` / `check_xss_reflection` functions.  
 - Add new sources in `subfinder()` (SecurityTrails, Amass, sublist3r, etc.).  
 - Integrate with your Burp / Zap exports by parsing extra URLs into `out/TARGET/vulns.json`.
 
 ---
 
-## 🤝 Contribute
+##  Contribute
 PRs & issues are welcome!  
 Please run ` bbr.py` before submitting code.
 
 ---
 
-## 📜 License
+##  License
 MIT – feel free to use, modify, and share.
 
 ---
